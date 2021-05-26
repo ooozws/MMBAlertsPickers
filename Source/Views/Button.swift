@@ -1,5 +1,6 @@
 import UIKit
 
+@objc(MMBButton)
 open class Button: UIButton {
     
     public typealias Action = (Button) -> Swift.Void
